@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pokeitem",
+  "version": "${version}",
+  "name": "Poke Item",
+  "description": "Server side: /pokeitem turns a party pokemon into an item that can be dropped, stored or given away; right click it to get the pokemon back. Clients do not need this mod.",
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "kr.pokeitem.PokeItem"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "cobblemon": ">=1.7.0"
+  }
+}
